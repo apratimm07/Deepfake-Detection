@@ -14,7 +14,7 @@ Feature Extraction & Classification (EfficientNet-B0)
         ↓
 Grad-CAM Visualization for Explainability
 
-🧠 Model Components
+# Model Components
 1. MTCNN (Multi-task Cascaded Convolutional Networks)
 
 Detects and aligns facial regions before feeding them to the classifier.
@@ -33,7 +33,7 @@ Generates heatmaps highlighting regions influencing the model’s decision.
 
 Offers interpretability by showing where the network “looked” during inference.
 
-📂 Dataset
+# Dataset
 
 Celeb-DF (v2) — a large-scale DeepFake dataset consisting of real and manipulated videos of celebrities and public figures.
 
@@ -45,7 +45,7 @@ Source: Kaggle – CelebDF-v2
 
 Cropped and aligned faces using MTCNN → final 7438 balanced images
 
-#Results
+# Results
 
 <img width="1263" height="472" alt="Screenshot 2025-11-12 235445" src="https://github.com/user-attachments/assets/25b34ac0-b754-45ec-a6d1-c2de122323a4" />
 <img width="1667" height="581" alt="Screenshot 2025-11-12 233340" src="https://github.com/user-attachments/assets/2ef3cd46-407a-4698-98bc-82c5804f6898" />
